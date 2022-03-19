@@ -1,9 +1,8 @@
 # 多核心RC4解码/破解器
 
-# 多核心RC4解码/破解器
+项目首页：[多核心RC4解码/破解器 – BUG专业写手 (zihaopu.cn)](https://zihaopu.cn/2022/03/18/cpen-lab4/)
 
 > 本项目背景是基于UBC CPEN 311 LAB4作业，旨在提高FPGA状态机和接口设计水平，同时提升Verilog实现算法的能力。
-> 
 
 ## 背景
 
@@ -18,7 +17,7 @@ RC4算法以伪代码的方式呈现如下：
 //     secret_key[]: array of bytes that represent the secret key. In out implementation,
 //                   we will assume a key of 24 bit, meaning this array is 3 bytes long.
 //     encrypted_input[]: array of bytes that repreent the encrypted message. In out
-//                        implementation, we will assume the input message is 32 bytes. 	
+//                        implementation, we will assume the input message is 32 bytes. 
 //output:
 //     decrypted_output[]:array of bytes that represent the decrypted result. This will
 //                        always be the same length as encrypted_input[].
